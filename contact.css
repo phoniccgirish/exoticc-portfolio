@@ -1,0 +1,170 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav{
+    display: flex;
+    background: linear-gradient(#726d6d,#000000);
+    height: 100px;
+    gap: 80px;
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    z-index: 2;
+    overflow: hidden;
+
+}
+.nav a{
+    margin-top: 30px;
+    font-size: 20px;
+    gap: 10px;
+    text-decoration: solid;
+    color: white;
+}
+#contact{
+    height: 40px;
+    border-radius: 5vh;
+    border: 2px;
+    width: 100px;
+    background-color: red;
+    margin-left: 90px;
+    color: white;
+    font-weight: 900;
+    font-size: 8px;
+    margin-top: 30px;
+
+}
+a:hover{
+    color: red;
+}
+#icons{
+    margin-left: 500px;
+    height: 100px;  
+    font-size: 30px;
+    gap: 70px;
+    margin-top: 200px;
+    color: red;
+    
+}
+#contact:hover{
+    color: chartreuse;
+    background-color: black;
+}
+#insta:hover{
+    color: greenyellow;
+
+}
+#facebook:hover{
+    color: rgb(45, 151, 45);
+}
+#linkdin:hover{
+    color: rgb(251, 255, 2);
+}
+#twiter:hover{
+    color: aqua;
+}
+.main{
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+    padding-top: 200px;
+}
+
+#div1{
+    background-color: rgb(165, 216, 165);
+    width: 300px;
+    height: 350px;
+    padding-left: 20px;
+    font-weight: bold;
+    font-size: 2rem;
+    padding-top: 30px;
+    transition: transform 0.3s ease-in-out; 
+}
+#name{
+    font-size: 30px;
+    color: red;
+    padding-top: 10px;
+
+}
+.i{
+    padding-top: 70px;
+    color: white;
+    margin-top: 70px;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.div2{
+    background-color: rgb(165, 216, 165);
+    width: 300px;
+    height: 350px;
+    padding-left: 20px;
+    font-weight: bold;
+    font-size: 2rem;
+    padding-top: 30px;
+    transition: transform 0.3s ease-in-out; 
+}
+.div3{
+    background-color: rgb(165, 216, 165);
+    width: 300px;
+    height: 350px;
+    padding-left: 20px;
+    font-weight: bold;
+    font-size: 2rem;
+    padding-top:30px;
+    transition: transform 0.3s ease-in-out; 
+
+}
+.div4{
+    background-color: rgb(165, 216, 165);
+    width: 300px;
+    height: 350px;
+    padding-left: 20px;
+    font-weight: bold;
+    font-size: 2rem;
+    padding-top: 30px;
+    transition: transform 0.3s ease-in-out; 
+}
+#linkdin{
+    border-radius: 50%;
+    
+}
+
+#div1:hover{
+    transform: translateY(-20px)
+
+}
+.div2:hover{
+    transform: translateY(-20px)
+}
+.div3:hover{
+    transform: translateY(-20px)
+}
+.div4:hover{
+    transform: translateY(-20px)
+}
+#div1:hover{
+    background-color: #ccc7c7;
+}
+.div2:hover{
+    background-color: #faecec;
+}
+.div3:hover{
+    background-color: #e7cda1;
+}
+.div4:hover{
+    background-color: #c6acdb;
+
+}
+.facebook{
+    padding-top: 20px;
+    color: rgb(41, 44, 22);
+    font-style: italic;
+}
+#twi{
+    border-radius: 50%;
+    
+}
